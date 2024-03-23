@@ -4,36 +4,38 @@ button {
   /* outline: none; */
   /* box-shadow: none; */
   /* border-radius: 50%; */
-  width: 140px;
+  width: 8.75rem;
+  
 }
-body{
+/* body {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
-}
-.main{
+} */
+.main {
   background-color: black;
   color: white;
-  height: 30vh;
-  width: 40vw;
+  height: 20.25rem;
+  width: 34.2rem;
   padding-left: 15px;
 }
 
-.btnclass{
-  margin-left: 15px;
-  border-radius: 10px;
+.btnclass {
+  /* margin-left: 0.9375rem; */
+  border-radius: 0.625rem;
   position: relative;
-  top: 25px;
+  top: 1.5625rem;
+  margin: 0.3125rem;
 }
-.currentcount{
+.currentcount {
   text-decoration: underline;
   /* font-weight: 700; */
 }
-.error{
+.error {
   color: red;
-  height: 20px;
+  height: 1.25rem;
 }
-.count{
+.count {
   font-weight: bolder;
 }
