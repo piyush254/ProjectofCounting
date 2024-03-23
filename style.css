@@ -1,0 +1,39 @@
+button {
+  /* background: none; */
+  border: none;
+  /* outline: none; */
+  /* box-shadow: none; */
+  /* border-radius: 50%; */
+  width: 140px;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.main{
+  background-color: black;
+  color: white;
+  height: 30vh;
+  width: 40vw;
+  padding-left: 15px;
+}
+
+.btnclass{
+  margin-left: 15px;
+  border-radius: 10px;
+  position: relative;
+  top: 25px;
+}
+.currentcount{
+  text-decoration: underline;
+  /* font-weight: 700; */
+}
+.error{
+  color: red;
+  height: 20px;
+}
+.count{
+  font-weight: bolder;
+}
